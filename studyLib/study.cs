@@ -15,7 +15,18 @@ public class study
 
         //Console.WriteLine(cnt);
 
-        return array;
+        return arrayContaining(array, cnt);
+    }
+////////////////////////////////////////////////////////////////////////////////
+    public static string[] arrayContaining(string[] arr, int n)
+    {
+        string[] finArr = new string[n];
+        for (int i = 0; i < n; ++i)
+        {
+            finArr[i] = arr[i];
+        }
+
+        return finArr;
     }
 ////////////////////////////////////////////////////////////////////////////////
 }
