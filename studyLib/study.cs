@@ -29,4 +29,12 @@ public class study
         return finArr;
     }
 ////////////////////////////////////////////////////////////////////////////////
+    public static void answerOutput(string[] inputArray, string[] outputArray, int boardSize)
+    {
+        if (outputArray.Length == 0)
+        {
+            Console.WriteLine($"There are no strings {boardSize} symbols in length.");
+        }
+        Console.WriteLine($"[{String.Join(", ", inputArray)}] -> [{String.Join(", ", outputArray)}]");
+    }
 }
