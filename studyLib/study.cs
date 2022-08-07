@@ -13,7 +13,7 @@ public class study
             }
         }
 
-        Console.WriteLine(cnt);
+        //Console.WriteLine(cnt);
 
         return array;
     }
